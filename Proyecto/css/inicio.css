@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../img/fondotaxi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mapa{
+    height: 600px;
+    width: 90%;
+}
+
+.ruta{
+    background-color: White;
+    border-radius: 10px;
+    height: auto;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: 70% 20%;
+    justify-content: center;
+    gap: 10px;
+}
+
+.contenido{
+    width: 300px;
+    text-align: center;
+}
+
+.buscar{
+    border-radius: 10px;
+    height: 30px;
+    width: 50%;
+}
+
+.pagar{
+    background-color: rgb(0, 29, 53);
+    color: white; 
+    border-radius: 10px;
+    margin: 15px;
+    height: 30px;
+    width: 150px;
+}
+
+.pagar a{
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 600px){
+    .contenido{
+        flex: 100%;
+        max-width: 80%;
+    }
+}
+

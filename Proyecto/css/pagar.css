@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../img/fondotaxi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.form-login{
+    width: 400px;
+    height: 550px;
+    background: #000000;
+    margin: auto;
+    margin-top: 50px;
+    margin-block-end: 150px;
+    border-radius: 10px;
+    box-shadow: 7px 13px 37px;
+    padding: 20px 30px;
+    border-top: 4px solid #000000;
+    color: rgb(161, 171, 215);
+    vertical-align: middle;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.form-login h5{
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 20px;
+}
+
+.controls{
+    width: 100%;
+    border: 1px solid #ffffff;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    padding: 11px 10px;
+    background: #ffffff;
+    color: rgb(29, 27, 27);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.ingresar{
+    width: 100%;
+    height: 40px;
+    background: rgb(0, 29, 53);
+    border: none;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+}
+
+.registro{
+    width: 100%;
+    height: 40px;
+    background: rgb(0, 29, 53);
+    margin-top: 5px;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+}
+
+
+.form-login p{
+    height: 40px;
+    text-align: center;
+    border-bottom: 1px solid;
+}
+
+.form-login a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.form-login a:hover{
+    text-decoration: underline;
+
+}
+
+.ruta{
+    background-color: White;
+    border-radius: 10px;
+    height: auto;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: 70% 20%;
+    justify-content: center;
+    gap: 10px;
+}
+
+.contenido{
+    width: 300px;
+    text-align: center;
+}
+
+.buscar{
+    border-radius: 10px;
+    height: 30px;
+    width: 50%;
+}
+
+.pagar{
+    background-color: rgb(0, 29, 53);
+    color: white; 
+    border-radius: 10px;
+    margin: 15px;
+    height: 30px;
+    width: 150px;
+}
+
+.pagar a{
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 400px){
+    .form-login{
+        width: auto;
+    }
+
+    .ruta, .pagar{
+        width: auto;
+    }
+}
+
+@media (max-width: 600px){
+    .contenido{
+        flex: 100%;
+        max-width: 80%;
+    }
+}
